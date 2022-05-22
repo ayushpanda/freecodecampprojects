@@ -1,0 +1,48 @@
+h1, p {
+    font-family: Palatino Linotype, sans-serif;
+    text-align: center;
+  }
+  .personal input, .personal select, .personal textarea {
+    padding: 2px;
+    margin: 2px;
+    display: block;
+    border: 2px;
+  }
+  label:not(.inline) {
+    font-family: Tahoma;
+    padding: 2px;
+    margin: 0;
+    display: block;
+    align-items: center;
+    margin-bottom: 0.5rem
+  }
+  body {
+    margin: 15px;
+    padding: 8px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 255, 75%);
+    color: rgba(98, 255, 48, 100%);
+  }
+  .inline {
+    vertical-align: middle;
+    margin: 2px;
+    padding: 2px;
+    display: online;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 255, 75%);
+    border: 0px;
+    min-width: 300px; 
+  }
+  hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .oddone {
+    margin-bottom: 2px;
+  }

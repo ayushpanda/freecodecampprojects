@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+    <title>Mr. Panda's Cafe Survey Form</title>
+  </head>
+  <body>
+     <div class="titles"> 
+    <h1 id="title">Mr. Panda's Cafe Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the cafe</em></p>
+     </div> 
+     <hr>
+     <form id="survey-form">
+     <div class="personal"> 
+      <fieldsets id="personal">
+        <label id="name-label">Name<input id="name" required type="text" placeholder="Enter your name"></input></label>
+        <label id="email-label">Email<input id="email" type="email" required placeholder="Enter your email"></input></label>
+        <label id="number-label">Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Age"></input></label>
+        <label>Which option best describes your current role?
+          <select id="dropdown" required class="oddone">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="1">Employee</option>
+            <option value="2">Ex-Employee</option>
+            <option value="3">Customer</option>
+            <option value="4">Perfer Not To Say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      <hr class=>    
+      </fieldset>
+     </div>
+     <div class="recommend"
+      <fieldsets id="recommend">
+        <label>Would you recommend this cafe to a friend?</label>
+        <input class="inline" name="recommend" value="def" type="radio" >Definitely</input>
+        <input class="inline" name="recommend" value="may" type="radio">Maybe</input>
+        <input class="inline" name="recommend" value="ns" type="radio">Not Sure</input>
+      </fieldset>
+      <hr>
+     </div>
+     <div class="improve" 
+      <fieldsets id="improve">
+        <label>What would you like to see improved?</label> 
+        <input value="checkbox" class="inline" type="checkbox">Coffee</input>
+        <input value="checkbox" class="inline" type="checkbox">Desserts</input>
+        <input value="checkbox" class="inline" type="checkbox">Parking Lot</input>
+        <div><input value="checkbox" class="inline" type="checkbox">Cooks</input>
+        <input value="checkbox" class="inline" type="checkbox">Interior</input>
+        <input value="checkbox" valueclass="inline" type="checkbox">Exterior</input>
+      </fieldset>
+      <hr>
+     </div>
+     <div class="comment" 
+      <fieldsets id="comment">
+        <div><label>Any comments or suggestions?</div>
+          <textarea rows="5" cols="30"></textarea>
+        </label>
+      </fieldset>
+     </div>
+     <input id="submit" type="submit"></input>   
+     </form>  
+  </body>    
+</html>
